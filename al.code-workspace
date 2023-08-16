@@ -4,6 +4,9 @@
       "path": "app"
     },
     {
+      "path": "app.Test"
+    },
+    {
       "path": ".AL-Go"
     }
   ],
