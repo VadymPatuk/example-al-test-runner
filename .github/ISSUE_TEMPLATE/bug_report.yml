@@ -52,7 +52,8 @@ body:
   - type: input
     id: customer
     attributes:
-      label: En que cliente ha  Indique 0 si es interno (LIDER).
+      label: En que cliente ha
+      description: Indique 0 si es interno (LIDER).
       placeholder: "Sport Lifestyle"
     validations:
       required: true
