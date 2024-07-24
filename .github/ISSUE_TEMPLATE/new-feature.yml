@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
          ### ❗️ Lee esto antes de crear issue:         
-         - **Consulta documentación de app** - confirma que característica ya existe consultando documentación http://sdesgh01:8080/extensiones/pte/wintc/
+         - **Consulta documentación de app** - confirma que característica ya existe consultando [documentación](http://sdesgh01:8080/extensiones/pte/wintc/)
   - type: textarea
     id: request-text
     attributes:
