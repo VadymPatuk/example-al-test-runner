@@ -1,0 +1,45 @@
+name: Mejora
+description: Solicitud de nuevo característica que actualmente no existe en app
+labels: [ "Nueva característica"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+         ### ❗️ Lee esto antes de crear issue:         
+         - **Consulta documentación de app** - confirma que característica ya existe consultando documentación http://sdesgh01:8080/extensiones/pte/wintc/
+  - type: textarea
+    id: request-text
+    attributes:
+      label: Describe la solución que te gustaría
+      description: Proporciona una descripción clara y concisa de lo que quieres que ocurra.
+    validations:
+      required: true
+  - type: textarea
+    id: alternative
+    attributes:
+      label: Describe alternativas que has considerado
+      description: Proporciona una descripción clara y concisa de cualquier solución o característica alternativa que has considerado.
+    validations:
+      required: false
+  - type: dropdown
+    id: module
+    attributes:
+      label: Módulos afectados
+      description: Seleccione módulos afectados
+      multiple: true
+      options:
+        - Báscula
+        - Fichero
+        - Impresora
+        - Repetidor
+        - FTP
+    validations:
+      required: false 
+  - type: input
+    id: customer
+    attributes:
+      label: Nombre del cliente donde necesita incorporar nueva característica
+      description: Indique 0 si es interno (LIDER).
+      placeholder: "Sport Lifestyle"
+    validations:
+      required: true   
