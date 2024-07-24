@@ -11,7 +11,7 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: Descripción del Bug
+      label: Descripción del error
       description: Proporciona una descripción clara y concisa del fallo
     validations:
       required: true
@@ -22,6 +22,20 @@ body:
       description: Proporciona una descripción clara y concisa de lo que esperabas que ocurriera.
     validations:
       required: false
+  - type: textarea
+    id: module
+    attributes:
+      label: Módulos afectados
+      description: Seleccione módulos afectados
+      multiple: true
+      options:
+        - Báscula
+        - Fichero
+        - Impresora
+        - Repetidor
+        - FTP
+    validations:
+      required: false      
   - type: textarea
     id: steps-reproduce
     attributes:
