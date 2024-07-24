@@ -52,7 +52,7 @@ body:
   - type: input
     id: customer
     attributes:
-      label: En que cliente ha
+      label: Nombre del cliente donde ha ocurrido error
       description: Indique 0 si es interno (LIDER).
       placeholder: "Sport Lifestyle"
     validations:
