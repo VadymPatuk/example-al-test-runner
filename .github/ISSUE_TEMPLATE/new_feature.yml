@@ -1,6 +1,6 @@
 name: 🌟 Solicitar nueva característica
 description: Solicitud de nuevo característica que actualmente no existe en app
-labels: [ "Nueva caracteristica"]
+labels: [ "Nueva característica"]
 body:
   - type: markdown
     attributes:
