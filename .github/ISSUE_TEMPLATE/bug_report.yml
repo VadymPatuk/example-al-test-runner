@@ -7,7 +7,7 @@ body:
       value: |
          ### ❗️ Lee esto antes de crear issue:         
          - **Proporcione la mayor cantidad de detalles posible:** registros de errores, capturas de pantalla, su configuración exacta.
-         - **Consulta documentación de app** - confirma que está bien configurado según documentación http://sdesgh01:8080/extensiones/pte/wintc/
+         - **Consulta documentación de app** - confirma que está bien configurado según [documentación ](http://sdesgh01:8080/extensiones/pte/wintc/)
   - type: textarea
     id: what-happened
     attributes:
