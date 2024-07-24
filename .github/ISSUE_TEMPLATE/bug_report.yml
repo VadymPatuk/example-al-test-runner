@@ -22,7 +22,7 @@ body:
       description: Proporciona una descripción clara y concisa de lo que esperabas que ocurriera.
     validations:
       required: false
-  - type: browsers
+  - type: dropdown
     id: module
     attributes:
       label: Módulos afectados
