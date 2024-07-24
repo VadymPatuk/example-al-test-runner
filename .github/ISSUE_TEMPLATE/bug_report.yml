@@ -60,6 +60,6 @@ body:
     id: stacktrace
     attributes:
       label: Log de error "Stack trace"
-      description: Si dispone de log error registrado en **Visor de eventos**
+      description: Copia trazablidad si dispone de log error registrado en **Visor de eventos**
     validations:
       required: false      
