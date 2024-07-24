@@ -34,31 +34,32 @@ body:
         4. Ver error
     validations:
       required: true
-  - type: input
-    id: prestashop-version
+  - type: textarea
+    id: stacktrace
     attributes:
-      label: PrestaShop version(s) where the bug happened
-      description: If the issue concerns upgrade, specify which versions you upgrading FROM and upgrading TO
-      placeholder: "e.g., 1.7.5.2 or 1.7.8.0"
+      label: Proprociona log de error
+      description: Si dispone de log error registrado en **Visor de eventos**
+    validations:
+      required: false      
+  - type: input
+    id: wintc-version
+    attributes:
+      label: Versión de app
+      description: Indica versión de app
+      placeholder: "24.11.24.687"
     validations:
       required: true
   - type: input
-    id: php-version
+    id: os-version
     attributes:
-      label: PHP version(s) where the bug happened
-      placeholder: "e.g., 7.1 or 8.0"
+      label: Versión de Windows
+      placeholder: "Windows 11"
     validations:
-      required: false
+      required: true
   - type: input
-    id: module
+    id: customer
     attributes:
-      label: If your bug is related to a module, specify its name and its version
-      placeholder: "e.g., ps_facetedsearch v7.0"
+      label: En que cliente ha  Indique 0 si es interno (LIDER).
+      placeholder: "Sport Lifestyle"
     validations:
-      required: false
-  - type: input
-    id: sponsor-company
-    attributes:
-      label: Your company or customer's name goes here (if applicable).
-    validations:
-      required: false
+      required: true
