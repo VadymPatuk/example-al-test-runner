@@ -2,4 +2,4 @@ blank_issues_enabled: false
 contact_links:
   - name: 🚀 Documentación de app
     url: http://sdesgh01:8080/extensiones/pte/wintc/
-    about: Explica instalacion y configuración de app
+    about: Describe paso por paso instalacion, configuración de app y consultas API
