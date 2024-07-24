@@ -22,7 +22,7 @@ body:
       description: Proporciona una descripción clara y concisa de lo que esperabas que ocurriera.
     validations:
       required: false
-  - type: textarea
+  - type: browsers
     id: module
     attributes:
       label: Módulos afectados
@@ -76,5 +76,6 @@ body:
     attributes:
       label: Log de error "Stack trace"
       description: Copia trazablidad si dispone de log error registrado en **Visor de eventos**
+      render: shell
     validations:
       required: false      
