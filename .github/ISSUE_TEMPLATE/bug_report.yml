@@ -34,13 +34,6 @@ body:
         4. Ver error
     validations:
       required: true
-  - type: textarea
-    id: stacktrace
-    attributes:
-      label: Log de error **stacktrace**
-      description: Si dispone de log error registrado en **Visor de eventos**
-    validations:
-      required: false      
   - type: input
     id: wintc-version
     attributes:
@@ -63,3 +56,10 @@ body:
       placeholder: "Sport Lifestyle"
     validations:
       required: true
+  - type: textarea
+    id: stacktrace
+    attributes:
+      label: Log de error **stacktrace**
+      description: Si dispone de log error registrado en **Visor de eventos**
+    validations:
+      required: false      
