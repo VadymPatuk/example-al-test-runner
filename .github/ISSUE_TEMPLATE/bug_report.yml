@@ -1,6 +1,7 @@
 name: 🐛 Reportar un error
 description: Reportar un fallo relacionado con funcionamiento de app
 labels: [ "Bug"]
+projects: ["PRUEBA ABC"]
 body:
   - type: markdown
     attributes:
