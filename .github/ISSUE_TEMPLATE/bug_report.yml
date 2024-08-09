@@ -1,7 +1,7 @@
 name: 🐛 Reportar un error
 description: Reportar un fallo relacionado con funcionamiento de app
 labels: [ "Bug"]
-projects: ["example-al-test-runner/3"]
+projects: ["VadymPatuk/3"]
 body:
   - type: markdown
     attributes:
