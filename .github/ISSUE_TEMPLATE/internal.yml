@@ -1,5 +1,5 @@
 name: ⚙️ [INTERNO] Arquitectura y diseño de la solución
-description: Proponer cambio interno: CI/CD, dependencias NuGet, test automatizados, seguridad, etc. Cualquier otro cambio que no afecta la parte lógica de APP.
+description: Proponer cambio interno -> CI/CD, dependencias NuGet, test automatizados, seguridad, etc. Cualquier otro cambio que no afecta la parte lógica de APP.
 labels: [ "Mejora"]
 projects: ["VadymPatuk/3"]
 body:
@@ -37,6 +37,6 @@ body:
     id: request-example
     attributes:
       label: Ejemplo de mejora
-      description: Ejemplo propuesto para incorporar mejora: referencia a un artículo web, ejemplo de nuevo código, etc.      
+      description: Ejemplo propuesto para incorporar mejora -> Referencia a un artículo web, ejemplo de nuevo código, etc.      
     validations:
       required: false  
